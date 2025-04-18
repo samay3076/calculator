@@ -20,8 +20,6 @@ function calculate() {
     setTimeout(clearDisplay, 1000);
   }
 }
-
-// Prevent keyboard input except for numbers and operators
 result.addEventListener('keydown', function(e) {
   e.preventDefault();
 });
